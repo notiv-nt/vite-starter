@@ -55,5 +55,5 @@ Uncomment these lines
 
 #### TODO
 - [ ] Add SSR
-- [ ] Make single index.html for both vite/vue-cli
+- [ ] Make single index.html for both vite & vue-cli
 - [ ] https://github.com/tailwindlabs/tailwindcss/discussions/2854
