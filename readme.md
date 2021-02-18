@@ -30,7 +30,30 @@ export default defineComponent({
 ```
 
 
+### Tailwind
+
+Install dependencies
+```
+npm install tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
+```
+
+Uncomment these lines
+
+`src/styles/index.scss`
+```scss
+// @tailwind base;
+// @tailwind components;
+// @tailwind utilities;
+```
+
+`postcss.config.js`
+```js
+// tailwindcss: {},
+```
+
+
+
 #### TODO
 - [ ] Add SSR
-- [ ] Add tailwind as optional
 - [ ] Make single index.html for both vite/vue-cli
+- [ ] https://github.com/tailwindlabs/tailwindcss/discussions/2854
